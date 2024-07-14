@@ -5,7 +5,7 @@
 This project is a starting point for a Flutter application that demonstrates the usage of GetX for state management. The app integrates with the sample open API provided by reqres.in for data fetching.
 
 **You can try it here :**
-[Download APK](https://drive.google.com/uc?id=1qJNp26Oojj6BV8AgWaCkdgb7PunpCWx-)
+[Download APK](https://drive.google.com/uc?id=1bOeNuA0S73JmhBzY_rfFXbkgIgi71quh)
 
 ## Features
 
