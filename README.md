@@ -1,6 +1,6 @@
 # Flutter GetX State Management Sample App
 
-<img src="https://drive.google.com/uc?id=1C1UB9iCA-7nqO4ejxDUgNhzndBCGip86" alt="Alt Text" width="540" height="960">
+<img src="https://drive.google.com/uc?id=1C1UB9iCA-7nqO4ejxDUgNhzndBCGip86" alt="Alt Text" width="270" height="480">
 
 This project is a starting point for a Flutter application that demonstrates the usage of GetX for state management. The app integrates with the sample open API provided by reqres.in for data fetching.
 
