@@ -19,7 +19,7 @@ class AddDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: const Text('Edit Data'),
+      title: const Text('Add Employee'),
       content: Form(
         key: formKey,
         child: SingleChildScrollView(

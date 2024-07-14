@@ -104,8 +104,9 @@ class HomePage extends GetView<HomeController> {
                     controller.isLoading.isFalse
                         ? SizedBox(
                             width: Get.width,
-                            height: (Get.height * 0.252) *
-                                (controller.allUser.length / 2).ceil(),
+                            height: (Get.width / 2) *
+                                    (controller.allUser.length / 2).ceil() -
+                                40,
                             child: GridView.builder(
                               physics: const NeverScrollableScrollPhysics(),
                               gridDelegate:
@@ -124,7 +125,7 @@ class HomePage extends GetView<HomeController> {
                           )
                         : SizedBox(
                             width: Get.width,
-                            height: (Get.height * 0.252) * 3,
+                            height: (Get.width / 2) * 3 - 40,
                             child: GridView.builder(
                               physics: const NeverScrollableScrollPhysics(),
                               gridDelegate:
@@ -140,7 +141,7 @@ class HomePage extends GetView<HomeController> {
                               },
                             ),
                           ),
-                    const SizedBox(height: 10),
+                    // const SizedBox(height: 10),
                     (controller.totalPage > 1)
                         ? Center(
                             child: Pagination(),

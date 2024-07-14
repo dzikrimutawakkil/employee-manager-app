@@ -10,7 +10,8 @@ class Pagination extends StatelessWidget {
   Widget build(BuildContext context) {
     return Obx(
       () => SizedBox(
-        height: Get.height * 0.05,
+        // height: Get.height * 0.05,
+        height: 30,
         child: ListView.builder(
           shrinkWrap: true,
           physics: const NeverScrollableScrollPhysics(),

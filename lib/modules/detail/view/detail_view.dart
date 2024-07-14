@@ -61,7 +61,7 @@ class DetailPage extends GetView<DetailController> {
                             filter: ImageFilter.blur(sigmaX: 0.8, sigmaY: 0.8),
                             child: Container(
                               width: Get.width,
-                              height: Get.height * 0.6,
+                              height: Get.width,
                               padding: const EdgeInsets.all(20.0),
                               margin:
                                   const EdgeInsets.symmetric(horizontal: 30.0),
@@ -73,7 +73,6 @@ class DetailPage extends GetView<DetailController> {
                                 children: [
                                   Container(
                                     decoration: BoxDecoration(
-                                        // color: Colors.white.withOpacity(0.4),
                                         gradient: RadialGradient(
                                           colors: [
                                             const Color.fromARGB(
